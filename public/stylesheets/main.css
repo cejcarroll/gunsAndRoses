@@ -1,0 +1,127 @@
+
+#masthead /* thanks http://www.htmlgoodies.com/beyond/css/how-to-create-horizontal-navigation-with-css3.html */
+{
+    /*margin: 0; */
+    margin-top: -1%; 
+    padding: 0;
+	background: #1B2630;
+	color: white;
+}
+
+#masthead ul
+{
+	list-style-type: none;
+	height: auto;
+	padding: 10px 40px 10px 40px;
+}
+
+#brand-nav
+{
+	font-size: 250%;
+	color: white;
+}
+#masthead li
+{
+	display: inline;
+	font-size: 150%;
+}
+
+#masthead a
+{
+	text-decoration: none;
+	color: #D9A535;
+	padding: 10px 40px 10px 40px;
+}
+#masthead a:hover
+{
+	color: white;
+	background-color: #2E4154;
+}
+
+body 
+{
+	margin: 0; 
+	font-size: 90%; 
+	font-family: 'Montserrat', sans-serif;
+	color: #1B2630; 
+	background-image: url('../imgs/flowers.jpeg');
+	/*background-image: url('https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&s=44f8f16e90de243c06ff99a8353ba91f');*/ 
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover
+{
+	padding-bottom: 10px;
+}
+.cover-heading
+{
+	font-size: 700%;
+	color: white;
+	text-align: center;
+}
+.leads
+{
+	margin-top: 25%;
+	background-color: #1B2630;
+	background-color: rgba(27,38,48,.80);
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.lead
+{
+	color: white;
+	font-size: 200%;
+	text-align: center;
+}
+
+.buttons
+{
+	margin-left: 38%;
+	margin-right: 40%;
+	padding-bottom: 20px;
+}
+
+
+.btn-default
+{
+	text-align: center;
+	font-size: 175%;
+	background-color: #1B2630;
+	color: #D9A535;
+	padding: 15px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+.btn-default:hover
+{
+	background-color: rgba(0,0,0,.30);
+}
+
+a:link 
+{
+    color: #D9A535;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #D9A535;
+}
+
+#foot
+{
+	margin-top: 10px;
+	color: #FF7572;
+	text-decoration: none;
+}
+
+.mastfoot
+{
+	text-align: center;
+}
